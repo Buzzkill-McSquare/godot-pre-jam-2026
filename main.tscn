@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=3 uid="uid://dpcn3gig3gm0s"]
 
 [ext_resource type="PackedScene" uid="uid://ch1a3antswkyt" path="res://player.tscn" id="1_fngxu"]
-[ext_resource type="Script" path="res://LeftStickDebug.gd" id="2_xkdix"]
-[ext_resource type="Script" path="res://RightStickDebug.gd" id="3_pm4mi"]
+[ext_resource type="Script" uid="uid://7ltpussi4kva" path="res://LeftStickDebug.gd" id="2_xkdix"]
+[ext_resource type="Script" uid="uid://d2dpq0e20gvns" path="res://RightStickDebug.gd" id="3_pm4mi"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_qh7yj"]
 

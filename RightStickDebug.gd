@@ -31,4 +31,3 @@ func update_position():
 
 	# Set Arrow's global position to Player's global position plus an offset in the opposite direction
 	global_transform.origin = player.global_transform.origin + Vector3(opposite_dir.x, 0, opposite_dir.y).normalized() * distance_from_player
-

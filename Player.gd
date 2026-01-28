@@ -44,4 +44,3 @@ func handle_rotation():
 		
 		# Rotate the character model
 		self.rotation_degrees.y = rad_to_deg(angle)
-

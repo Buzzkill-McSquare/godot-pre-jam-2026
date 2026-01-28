@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://ch1a3antswkyt"]
 
-[ext_resource type="Script" path="res://Player.gd" id="1_svk6u"]
+[ext_resource type="Script" uid="uid://dqoeqt1g34eun" path="res://Player.gd" id="1_svk6u"]
 
 [sub_resource type="Shader" id="Shader_whfa5"]
 code = "// NOTE: Shader automatically converted from Godot Engine 4.2.2.stable's StandardMaterial3D.
@@ -50,7 +50,7 @@ shader = SubResource("Shader_whfa5")
 shader_parameter/albedo = Color(0.858643, 0.14206, 0, 1)
 shader_parameter/point_size = 1.0
 shader_parameter/roughness = 1.0
-shader_parameter/metallic_texture_channel = null
+shader_parameter/metallic_texture_channel = Vector4(0, 0, 0, 0)
 shader_parameter/specular = 0.5
 shader_parameter/metallic = 0.0
 shader_parameter/uv1_scale = Vector3(1, 1, 1)
