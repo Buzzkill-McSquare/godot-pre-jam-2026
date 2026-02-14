@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://ch1a3antswkyt" path="res://player.tscn" id="1_fngxu"]
 [ext_resource type="Script" uid="uid://7ltpussi4kva" path="res://LeftStickDebug.gd" id="2_xkdix"]
 [ext_resource type="Script" uid="uid://d2dpq0e20gvns" path="res://RightStickDebug.gd" id="3_pm4mi"]
+[ext_resource type="PackedScene" uid="uid://8xxc2rvb38vq" path="res://mob.tscn" id="4_1bvp3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_qh7yj"]
 size = Vector3(60, 2, 60)
@@ -61,3 +62,6 @@ projection = 1
 size = 61.232
 near = 9.9
 far = 99.2
+
+[node name="Mob" parent="." unique_id=539130311 instance=ExtResource("4_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.70876, 1.9662039, 0)
