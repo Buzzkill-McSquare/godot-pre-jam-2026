@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://ch1a3antswkyt"]
+[gd_scene format=3 uid="uid://ch1a3antswkyt"]
 
-[ext_resource type="Script" uid="uid://dqoeqt1g34eun" path="res://Player.gd" id="1_svk6u"]
+[ext_resource type="Script" uid="uid://dqoeqt1g34eun" path="res://characters/player/Player.gd" id="1_svk6u"]
 
 [sub_resource type="Shader" id="Shader_whfa5"]
 code = "// NOTE: Shader automatically converted from Godot Engine 4.2.2.stable's StandardMaterial3D.
